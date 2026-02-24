@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient( to bottom, rgb(15, 14, 14), transparent), url("../images/coffee2.jpg") center/cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin:0;
+    
+}
+h1{
+    color: #8b5e3c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5vh;
+    font-size: 60px;}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+    
+}
+.menu a{
+    background-color: #8b5e3c;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #ffffff;
+    padding: 10px, 20px;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.3s;
+    width: 250px;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: #8b5e3c;
+    transform: scale(1.05);
+}
+h2{
+    margin: 30px, 0;
+    font-size: 2.5em;
+    color: #8b5e3c;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin:auto
+}
+.card{
+    background-color: #fff, ;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    filter: brightness(0.9);
+}
+.card h3{
+    margin: 0;
+    font-size: 1.4em;
+    color: #a75e2e;
+}
+.price{
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #d4af37;
+}
+.card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0.25);
+}

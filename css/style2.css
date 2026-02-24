@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient( to bottom, rgb(15, 14, 14), transparent), url("../images/coffee2.jpg") center/cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    
+    
+}
+h1{
+    color: #8b5e3c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5vh;
+    font-size: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+    
+}
+.menu a{
+    background-color: #8b5e3c;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #ffffff;
+    padding: 10px, 20px;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.3s;
+    width: 250px;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: #8b5e3c;
+    transform: scale(1.05);
+}
+.intro{
+    text-align: center;
+    margin-top: 50px;
+    color: #835536;
+}
+.intro h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.intro p{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.horario{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #d4af37
+}
+.reservaciones {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #8b5e3c;
+    margin-bottom: 20px;
+}
+
